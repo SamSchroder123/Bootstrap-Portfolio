@@ -10,11 +10,17 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-info">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/profilePic.jpg"
+            class="img-fluid img-thumbnail"
+            alt="Profile picture."
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -28,13 +34,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item bg-white rounded m-2">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item bg-white rounded m-2">
+              <a class="nav-link" href="#work">Work</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item bg-white rounded m-2">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -55,9 +64,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+            </li> -->
           </ul>
-          <form class="d-flex" role="search">
+          <!-- <form class="d-flex" role="search">
             <input
               class="form-control me-2"
               type="search"
@@ -67,11 +76,50 @@
             <button class="btn btn-outline-success" type="submit">
               Search
             </button>
-          </form>
+          </form> -->
         </div>
       </div>
     </nav>
-    <h1>Bootstrap Portfolio</h1>
+    <main>
+      <h1>Bootstrap Portfolio</h1>
+      <h2 id="about">About Me</h2>
+      <p>
+        I am an aspiring software developer enrolled on a front-end web
+        development bootcamp with EdX.
+      </p>
+      <h3>Skills I will learn by the end of the bootcamp:</h3>
+      <ul>
+        <li>
+          Apply fundamental knowledge of web development with HTML, CSS, and
+          JavaScript.
+        </li>
+        Create visually-compelling page layouts using UX design principles.
+        <li>
+          Maintain code versioning and work across distributed teams using Git
+          and GitHub.
+        </li>
+        <li>
+          Manipulate page information and create interactivity using jQuery and
+          React.
+        </li>
+        <li>
+          Retrieve data from servers using RESTful-compliant network requests.
+        </li>
+        <li>
+          Organise code, having mastered foundations of object-oriented and
+          functional programming paradigms.
+        </li>
+        <li>
+          Build modern web applications with industry-standard frameworks like
+          Node.js and React.
+        </li>
+        <li>Deploy web-based applications using Netlify.</li>
+        <li>Prepare a portfolio of front-end development work.</li>
+      </ul>
+      <h2 id="work">Work</h2>
+      <p>Please see my portfolio of projects below.</p>
+      <h2 id="contact">Contact Me</h2>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
